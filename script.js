@@ -46,7 +46,7 @@ for(let key = 0; key < keys.length; key++) {
     //Main functionality  
     if (num) {
       if (display.innerText === "0" || 
-          btnPress[0].className === "opKey" ) {
+          btnPress[0].className === "opKey") {
         display.innerText = this.innerText; //Replace initial 0
       } else {
         display.innerText += this.innerText; //Concat next numbers

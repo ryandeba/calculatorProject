@@ -5,28 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="calcContainer">
     <div id="display"></div>
+    <div id="calcName"><h1>See You (calcu)Later</h1></div>
     <div id="keys">
-      <button class="numKey">1</button>
-      <button class="numKey">2</button>
-      <button class="numKey">3</button>
-      <button class="numKey">4</button>
-      <button class="numKey">5</button>
-      <button class="numKey">6</button>
+      <button class="opKey" data-action="multiply">*</button>
+      <button class="opKey" data-action="divide">/</button>
+      <button class="opKey" data-action="add">+</button>
+      <button class="opKey" data-action="subtract">-</button>
       <button class="numKey">7</button>
       <button class="numKey">8</button>
       <button class="numKey">9</button>
-      <button class="numKey">0</button>
-      <button class="opKey" data-action="add">+</button>
-      <button class="opKey" data-action="subtract">-</button>
-      <button class="opKey" data-action="multiply">*</button>
-      <button class="opKey" data-action="divide">/</button>
       <button id="decimal" data-action="decimal">.</button>
+      <button class="numKey">4</button>
+      <button class="numKey">5</button>
+      <button class="numKey">6</button>
       <button id="clear" data-action="clear">c</button>
+      <button class="numKey">1</button>
+      <button class="numKey">2</button>
+      <button class="numKey">3</button>
       <button id="calc" data-action="calculate">=</button>
+      <button class="numKey">0</button>
     </div>
   </div>
 
