@@ -1,0 +1,23 @@
+* {
+  font-size: 2rem;
+}
+#display {
+  height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid black;
+}
+#keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.numKey, .opKey, #clear, #calc, #decimal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+}
